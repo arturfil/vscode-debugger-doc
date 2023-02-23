@@ -27,11 +27,13 @@ To setup your Vscode to debug your backend it's actually very simple. In vscode 
 
 (Figure 1)
 <image src="./images/debug_logo2.png" height="90" width="100"/> 
+<br/>
 
 You click on it and you can possibly see the following:
 
 (Figure 2)
 <image src="./images/debug_menu.png"/>
+<br/>
 
 You want to click on the "create a launch.json file"
 
@@ -42,17 +44,21 @@ Once you have the launch.json file created and you are inside the "debug" side t
 
 (Figure 3)
 <image src="./images/play_button.png">
+<br/>
 
 This button now will start your debugger but you first need to setup up your flags.
 
 (Figure 4)
 <image src="./images/flags.png">
+<br/>
 Notice the red dots on the left to the numbered lines. Those red dots are flags (you click there, on the left, to setup a flag if desired), that server as breaking points or points where you want your code to stop so you can analyze the data flow and you will see a debug menu to control the processes:
 
 (Figure 5)
 <image src="./images/debugger_buttons.png"/>
+<br/>
 With this you will be able to restart, go to next/previous process, jump over next process, or stop the debugger overall.
 
 (Figure 6)
 <image src="./images/next_button.png"/>
+<br/>
 This button is the responsible to take the process to the next one, once the debugger hits a breaking point.
